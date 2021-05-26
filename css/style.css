@@ -1,0 +1,349 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+html,body{
+    overflow-x: hidden !important;
+}
+.navbarSection{
+    background-image: url("../img/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 3px solid black;
+}
+.img-fluid.logo {
+	width: 40px !important;
+}
+.btn.my-2.my-sm-0 {
+	padding-left: 0;
+}
+.form-inline.my-2.my-lg-0 input {
+	border-radius: unset;
+	padding: 10px;
+	height: 35px;
+	width: 215px;
+	font-size: 20px;
+	border: unset;
+}
+.nav-item {
+	margin: 0 50px;
+}
+
+.nav-item a {
+	color: black !important;
+	font-weight: bold;
+	font-size: 20px;
+}
+.nav-link{
+	transition: 0.3s;
+}
+.nav-link:hover {
+	transform: scale(1.1);
+}
+
+
+/* hero */
+.hero .card{
+    border: unset !important;
+    border-radius: unset !important;
+    background-color: unset;
+}
+.hero .card-img-top{
+    border-radius: unset !important;
+}
+.hero h1.position-absolute {
+	color: white;
+	text-shadow: 2px 2px black;
+	right: 30px;
+	bottom: 16px;
+	font-size: 45px !important;
+	letter-spacing: 2px;
+}
+.btn.prevBtn.slick-arrow {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 25px;
+	transform: translateY(-50%);
+}
+.btn.nextBtn.slick-arrow {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	right: 25px;
+	transform: translateY(-50%);
+}
+/* components */
+.components{
+    padding: 50px 0;
+}
+.components .container {
+	max-width: 98%;
+}
+
+/* engine */
+.engine .card{
+    border: unset !important;
+    border-radius: unset !important;
+    background-color: unset;
+}
+.engine .card-img-top{
+    border-radius: unset !important;
+}
+
+/* best */
+.best{
+    padding: 30px 0;
+}
+.best h2 {
+	font-size: 35px;
+	letter-spacing: 2px;
+}
+.best p {
+	font-size: 20px;
+	font-weight: 500;
+}
+.best .container {
+	max-width: 98%;
+}
+
+
+/* newsletter */
+.newsletter .container{
+    max-width: 98%;
+}
+.newsletter{
+    background-image: url("../img/newsletter.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+.newsletter h3.text-white {
+	font-size: 45px;
+}
+
+.newsletter .btn-danger{
+    background-color: #ff0000 !important;
+    color: black !important;
+}
+.newsletter .btn-danger {
+	background-color: #ff0000 !important;
+	color: black !important;
+	border-radius: unset;
+	font-size: 20px !important;
+	padding: 0px 20px;
+	border: unset !important;
+}
+.newsletter .form-control.mt-4 {
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: unset !important;
+}
+
+/* race */
+.race {
+	padding-top: 110px;
+}
+.img-fluid.best {
+	width: 100%;
+	margin: unset !important;
+	padding: unset !important;
+}
+.img-fluid.raceImg {
+	position: relative;
+	right: -285px;
+}
+
+/* footer */
+.footer{
+    background-image: url("../img/foooter-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top: 3px solid black;
+    padding-top: 50px;
+}
+
+.footer ul{
+    list-style: none;
+    padding: unset;
+    margin: unset;
+}
+.footer li a.text-dark.text-decoratio-none {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 2px;
+	display: inline-block;
+	letter-spacing: 1px;
+}
+.social img {
+	width: 45px !important;
+	margin: 5px;
+}
+.img-fluid.payents {
+	width: 60%;
+}
+.img-fluid.card-img-top.cardsImg {
+	position: relative;
+	top: -195px;
+	margin-bottom: -195px;
+}
+.footer .text-center.mt-5 {
+	margin-top: 80px !important;
+    padding-bottom: 10px;
+}
+.footer .container {
+	max-width: 98%;
+}
+
+
+
+
+/* product page */
+.sliderSection{
+    padding: 50px;
+}
+.sliderSection h2 {
+	font-size: 40px;
+	color: #6F6F6F;
+}
+.fs-20{
+    font-size: 20px;
+}
+.sliderSection p{
+    color: #6F6F6F;
+}
+.text-danger{
+    color: #FF0000 !important;
+}
+.btn {
+	border-radius: unset;
+}
+p.desk {
+	font-size: 20px;
+	margin-top: 25px;
+}
+.slider-nav .slick-track {
+	transform: unset !important;
+}
+input[type="number"] {
+	-moz-appearance: textfield;
+	width: 90px;
+}
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+/* list section */
+.listSection{
+    padding:10px 0 30px 0;
+}
+.listSection ul li {
+	line-height: 2;
+	font-size: 20px;
+}
+@media screen and (max-width:1250px){
+    .nav-item {
+        margin: 0 40px;
+    }
+}
+@media screen and (max-width:1200px){
+    .nav-item {
+        margin: 0 30px;
+    }
+}
+@media screen and (max-width:1100px){
+    .nav-item {
+        margin: 0 20px;
+    }
+}
+@media screen and (max-width:992px){
+    #navbarSupportedContent {
+        text-align: center !important;
+    }
+    .form-inline.my-2.my-lg-0 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px !important;
+    }
+    .sliderSection br {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px){
+    .btn.my-2.my-sm-0 {
+        margin: 5px;
+    }
+    
+    .sliderSection h2 {
+        margin-top: 20px;
+    }
+    .img-fluid.card-img-top.cardsImg {
+        width: 40%;
+        margin: auto;
+    }
+    /* #navbarSupportedContent {
+        height: 100vh;
+        overflow: hidden !important;
+    } */
+    
+    .hero h1.position-absolute {
+        position: unset !important;
+        color: black;
+        text-shadow: 2px 2px yellow;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .newsletter {
+        text-align: center !important;
+    }
+    .newsletter .text-right.mt-4 {
+        text-align: center !important;
+    }
+    .img-fluid.card-img-top.cardsImg {
+        position: unset;
+        margin-bottom: unset;
+    }
+    .race .col-md-5.mt-auto.text-right {
+        text-align: center !important;
+    }
+    .img-fluid.raceImg {
+        position: unset;
+        right: unset;
+        display: none;
+    }
+    .race {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .footer ul li {
+        text-align: center;
+    }
+    .social {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .img-fluid.payents {
+        margin: auto !important;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 30%;
+    }
+    .components .col-md-5.mt-auto {
+        margin-top: 20px !important;
+    }
+}
+
+@media screen and (max-width:400px){
+    a.btn.my-2.my-sm-0 {
+        width: 20%;
+        margin: 0px;
+    }
+}
